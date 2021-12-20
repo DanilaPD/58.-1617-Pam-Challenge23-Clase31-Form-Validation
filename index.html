@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- Logo - Favicon -->
+    <link rel="icon" href="./Assets/favicon.ico" type="image/x-icon" />
+    <!-- Css propio -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Student Registration Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Create an account:</h1>
+      <form action="" class="form" id="form">
+        <div class="form-control">
+          <label for=""
+            >Username:
+            <input
+              type="text"
+              name=""
+              id="username"
+              placeholder="Jack Awesome Black"
+            />
+            <i class="fas fa-check-circle success"></i>
+            <i class="fas fa-exclamation-circle error"></i>
+            <small></small>
+          </label>
+        </div>
+
+        <div class="form-control">
+          <label for=""
+            >Email:
+            <input
+              type="text"
+              name=""
+              id="email"
+              placeholder="jack@white.com"
+            />
+            <i class="fas fa-check-circle success"></i>
+            <i class="fas fa-exclamation-circle error"></i>
+            <small></small>
+          </label>
+        </div>
+
+        <div class="form-control">
+          Fav Instrument:
+          <select name="favInstrument" id="favInstrument">
+            <option value="Electric Guitar">Electric Guitar</option>
+            <option value="Drums">Drums</option>
+            <option value="Bass">Bass</option>
+            <option value="Piano">Piano</option>
+            <option value="Other">Other</option>
+          </select>
+          <i class="fas fa-check-circle success"></i>
+          <i class="fas fa-exclamation-circle error"></i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <label for=""
+            >Password:
+            <input type="text" name="" id="password1" placeholder="*******" />
+            <i class="fas fa-check-circle success"></i>
+            <i class="fas fa-exclamation-circle error"></i>
+            <small></small>
+          </label>
+        </div>
+
+        <div class="form-control">
+          <label for=""
+            >Repeat your password:
+            <input type="text" name="" id="password2" placeholder="*******" />
+            <i class="fas fa-check-circle success"></i>
+            <i class="fas fa-exclamation-circle error"></i>
+            <small></small>
+          </label>
+        </div>
+
+        <button class="btn">Submit & join us!</button>
+      </form>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
