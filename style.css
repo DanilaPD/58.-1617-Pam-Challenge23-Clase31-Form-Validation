@@ -76,19 +76,21 @@ i.success {
 }
 
 .error input {
-  border-color: #ff6b5b;
+  border-color: #12159b;
 }
 
 i.error {
-  color: #ff6b5b;
+  color: #12159b;
   /* visibility: hidden; */
   display: none;
 }
 
 small {
   visibility: hidden;
-  color: #ff6b5b;
-  font-weight: 500;
+  color: #12159b;
+  background-color: aliceblue;
+  border: black solid 2px;
+  font-weight: 900;
   font-size: 16px;
 }
 
